@@ -1,4 +1,4 @@
-# Pocket Paise 🌸✨
+`# Pocket Paise 🌸✨
 > **Personal Finance Management Web Application**  
 > *"Plan · Track · Thrive ♡"*
 
@@ -45,7 +45,6 @@ The React frontend starts at `http://localhost:5173`.
 
 You can click **"Instant Login with Demo Data"** on the login page or enter:
 - **Email**: `dreamer@pocketpaise.com`
-- **Password**: `Password123!`
 
 ### Demo Highlights (Matching the First UI Draft):
 - **Total Balance**: ₹24,580 (`↑ +8%`)
