@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-script: 'Caveat', cursive;
+    --font-display: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-script {
+  font-family: 'Caveat', cursive;
+}
+
+.font-display {
+  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom Soft Pastel Glass Shadows & Borders */
+.pastel-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(240, 230, 224, 0.9);
+  box-shadow: 0 10px 25px -5px rgba(210, 185, 175, 0.12), 0 8px 10px -6px rgba(210, 185, 175, 0.08);
+}
+
+.pastel-card:hover {
+  box-shadow: 0 14px 28px -4px rgba(210, 185, 175, 0.18), 0 10px 14px -6px rgba(210, 185, 175, 0.1);
+}
+
+.clay-card {
+  box-shadow: 6px 6px 14px rgba(225, 205, 195, 0.3), -6px -6px 14px rgba(255, 255, 255, 0.8);
+}
+
+/* Custom Scrollbar for cozy aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5ebe6;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4bcaf;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bfa495;
+}
